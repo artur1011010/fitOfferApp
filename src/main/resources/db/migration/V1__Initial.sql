@@ -1,0 +1,1 @@
+CREATE SCHEMA "fit_user_db";

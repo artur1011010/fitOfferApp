@@ -9,7 +9,7 @@ import pl.artur.zaczek.fitOfferApp.rest.model.auth.AuthorizationDto;
 @Slf4j
 public class UserAuthClient {
     private final WebClient webClient;
-    private final String authUrl = "http://localhost:8082/api/v1/auth";
+    private final String authUrl  = System.getenv("AUTH_URL");
     private final String AUTHORIZATION_HEADER = "Authorization";
 
 
