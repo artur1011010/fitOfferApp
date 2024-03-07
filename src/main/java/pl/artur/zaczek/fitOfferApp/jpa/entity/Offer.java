@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Data
 @Builder
-@Table(schema = "fit_offer_db", name = "OFFERS")
+@Table(name = "OFFERS")
 public class Offer {
 
     @Id

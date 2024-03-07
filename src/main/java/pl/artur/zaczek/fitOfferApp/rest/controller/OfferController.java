@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/offer")
 @RequiredArgsConstructor
 @Slf4j
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class OfferController {
 
     private final OfferService offerService;
